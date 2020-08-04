@@ -1,5 +1,5 @@
 def insert_squares(arr, num):
-    arr2=[]
+    	arr2=[]
 	for i in range(1,num+1):
 		arr2.append(i*i)
 	print(arr + arr2)
