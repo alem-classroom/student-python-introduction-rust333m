@@ -30,3 +30,7 @@ def is_positive_or_even(num):
     else:
         return False
 
+print(is_positive(random.randint(-30,30)))
+print(is_even(random.randint(-30,30)))
+print(is_positive_and_even(random.randint(-30,30)))
+print(is_positive_or_even(random.randint(-30,30)))
